@@ -1,0 +1,48 @@
+.section__link {
+  display: grid;
+  margin-top: 20px;
+  grid-template-columns: 400px 400px 440px;
+  grid-template-rows: 300px 300px;
+  grid-template-areas: 
+  "aboutMe memoji memoji"
+  ". certificate .";
+}
+/* about me */
+.section__link__about_me {
+  grid-area: aboutMe; 
+}
+.about__me_img{
+  width: 300px;
+  transition: 0.5s;
+}
+.about__me_img:hover{
+  width: 400px;
+  transition: 0.5s;
+}
+/* memoji game */
+.section__link__memoji_game {
+  grid-area: memoji;
+}
+.memoji__game_img {
+  transition: 0.5s;
+  float: right;
+}
+
+.memoji__game_img:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+/* certificates */
+.section__link__certificates {
+  grid-area: certificate;
+}
+.certificates_img {
+  max-width: 400px;
+  max-height: 300px;
+  transition: 0.5s;
+}
+
+.certificates_img:hover {
+  transform: scale(1.2);
+  transition: 0.5s;
+}
