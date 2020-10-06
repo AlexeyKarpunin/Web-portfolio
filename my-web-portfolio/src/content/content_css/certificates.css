@@ -1,3 +1,48 @@
 .slaider {
-  width: 300px;
+  display: flex;
+  justify-content: center;
 }
+.slaider_controller {
+  width: 700px;
+  display: flex;
+  transition: 0.7s linear;
+}
+
+.slaider__items {
+  width: 700px;
+  display: flex;
+  overflow: hidden;
+}
+.img__size {
+  width: 700px;
+}
+.slaider__item {
+  display: flex;
+  align-items: center;
+}
+
+.M700 {
+  transform: translateX(-700px);
+}
+
+.M1400 {
+  transform: translateX(-1400px);
+}
+
+.M2100 {
+  transform: translateX(-2100px);
+}
+
+.M2800 {
+  transform: translateX(-2800px);
+}
+
+.M3500 {
+  transform: translateX(-3500px);
+}
+
+.M4200 {
+  transform: translateX(-4200px);
+}
+
+

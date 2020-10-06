@@ -6,12 +6,12 @@ import pageProofs from '../certificate_img/page-proofs.png';
 import prototypeAndAsync from '../certificate_img/prototype-and-async.png';
 
 const CERTIFICATES = {
-  finalProject: finalProjectImg,
-  jsFunctions: jsFunctionsImg,
-  HTMLandCss: HTMLandCSS,
   jsSpecealization: jsSpecealization,
+  HTMLandCss: HTMLandCSS,
   pageProofs: pageProofs,
-  prototypeAndAsync: prototypeAndAsync
+  jsFunctions: jsFunctionsImg,
+  prototypeAndAsync: prototypeAndAsync,
+  finalProject: finalProjectImg,
 };
 
 export default CERTIFICATES;

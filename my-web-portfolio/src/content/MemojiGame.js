@@ -3,8 +3,12 @@ import React from 'react';
 class MemojiGame extends React.Component {
  
   render(){
+    const {backArrow} = this.props;
     return (
-      <div> game</div>
+      <article>
+        <button className="container__button_back button" onClick={backArrow}>back</button>
+        
+      </article>
     )
   }
 }
