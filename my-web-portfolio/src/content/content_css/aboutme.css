@@ -8,3 +8,10 @@
 .container__img_my_face {
   width: 300px;
 }
+.container__buttons {
+  display: flex;
+}
+
+.space {
+    flex-basis: 70%;
+}

@@ -6,7 +6,7 @@ import memoji from './img/memojigame.png'
 import certificates from './img/books.png'
 import AboutMe from './content/AboutMe'
 import Certificates from './content/Certificates';
-import MemojiGame from './content/MemojiGame';
+import MemojiGame from './content/memoji_game/MemojiGame';
 
 
 const CONTENT = {

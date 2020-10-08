@@ -1,6 +1,7 @@
 import React from 'react';
 import './content_css/certificates.css';
 import Slaider from './Slaider';
+import '../css/button.css'
 
 class Certificates extends React.Component {
   constructor () {
@@ -11,7 +12,9 @@ class Certificates extends React.Component {
     const {backArrow} = this.props;
     return (
       <article className="container">
-        <button className="container__button_back button" onClick={backArrow}>back</button>
+        <div onClick={backArrow} class="container__button_back button_back">
+            <div></div>
+        </div>
         <section>
           <Slaider/>
         </section>

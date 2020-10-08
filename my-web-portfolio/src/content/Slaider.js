@@ -1,5 +1,6 @@
 import React from 'react';
 import CERTIFICATES from './api/certificates';
+import '../css/button.css'
 
 class Slaider extends React.Component {
   constructor () {
@@ -50,13 +51,14 @@ class Slaider extends React.Component {
     const {mover} = this.state;
       return (
         <div className="slaider">
-          <button className="slaider__button__left" onClick={this.movePicture}>left</button>
+          <div className="slaider__button__left" onClick={this.movePicture}></div>
           <div className="slaider__items">
               <div className={mover}>
                    <this.ImgList img = {this.certificates}/>
               </div>
           </div>
-          <button className="slaider__button__right" onClick={this.movePicture}>rigth</button>
+          <div className="slaider__button__right" onClick={this.movePicture}>
+          </div>
         </div>
       )
     }
